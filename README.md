@@ -33,6 +33,7 @@ Please cite the following work on EPTI for this, including:
 2. "Echo planar time-resolved imaging with subspace reconstruction and optimized spatiotemporal encoding", Zijing Dong et al., MRM 2020 Nov;84(5):2442-2455;
 
 3. "Improving fMRI acquisition using single-shot EPTI with distortion-free high-SNR high-CNR multi-echo imaging", Fuyixue Wang et al., ISMRM 2022 p3330;
+
 Other relevant citations that may warrant consideration (EPTI's application in fMRI, dMRI and qMRI), see EPTI website: https://martinos.org/~fw089/
 
 
