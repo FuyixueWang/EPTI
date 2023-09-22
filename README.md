@@ -1,11 +1,10 @@
 # EPTI
 EPTI (Echo Planar Time-resolved Imaging) raw-data processing, image reconstruction and data preprocessing.
 Reconstruction version date: 09/2023; 
-We will continue to optimize the reconstruction and the sequence.
 
-Updated reconstruction code, and available sequences will be posted on our website https://martinos.org/~fw089/.
+We will continue to optimize the reconstruction and the sequence. Updated reconstruction code, and available sequences will be posted on our website https://martinos.org/~fw089/.
 
-Fuyixue Wang <fwang18@mgh.harvard.edu>; Zijing Dong <zdong3@mgh.harvard.edu>; July 2023, MGH
+Fuyixue Wang <fwang18@mgh.harvard.edu>; Zijing Dong <zdong3@mgh.harvard.edu>;  July 2023,  MGH
 
 -------------------------------------------------------------------------------------------------------------
 The MATLAB scripts and functions for EPTI raw-data processing, image reconstruction and data preprocessing.
