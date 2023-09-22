@@ -2,7 +2,9 @@
 EPTI (Echo Planar Time-resolved Imaging) raw-data processing, image reconstruction and data preprocessing.
 Reconstruction version date: 09/2023; 
 We will continue to optimize the reconstruction and the sequence.
+
 Updated reconstruction code, and available sequences will be posted on our website https://martinos.org/~fw089/.
+
 Fuyixue Wang <fwang18@mgh.harvard.edu>; Zijing Dong <zdong3@mgh.harvard.edu>; July 2023, MGH
 
 
@@ -13,6 +15,7 @@ It supports:
 - single-shot and multi-shot EPTI;
 - EPTI with or without SMS acquisition;
 - 3T and 7T EPTI.
+
 The main MATLAB scripts included in the folders 'main_scripts_VE11C_3T' and 'main_scripts_VE12U_7T' were prepared with preset parameters for the example EPTI protocols released in the EPTI C2P sequence package. (You can request the EPTI sequence for Siemens scanners through MGH C2P Program http://nmr.mgh.harvard.edu/c2p or Siemens teamplay C2P Exchange).
 
 The scripts produce reconstructed EPTI images from Twix rawdata, and saves NIFTI output and some intermediate MATLAB files (see details about the output below).
@@ -25,8 +28,11 @@ All sequence and reconstruction parameters were optimized for in-vivo human brai
 
 
 Please cite the following work on EPTI for this, including: 
+
 1. "Echo planar time-resolved imaging (EPTI)", Fuyixue Wang et al., MRM 2019 Jun;81(6):3599-3615;
+
 2. "Echo planar time-resolved imaging with subspace reconstruction and optimized spatiotemporal encoding", Zijing Dong et al., MRM 2020 Nov;84(5):2442-2455;
+
 3. "Improving fMRI acquisition using single-shot EPTI with distortion-free high-SNR high-CNR multi-echo imaging", Fuyixue Wang et al., ISMRM 2022 p3330;
 Other relevant citations that may warrant consideration (EPTI's application in fMRI, dMRI and qMRI), see EPTI website: https://martinos.org/~fw089/
 
