@@ -1,0 +1,17 @@
+Version for EPTI reconstruction using subspace approach
+
+Modification based on bart-0.8.00 and Gilad Liberman's bart implementation (bart-0.4.04b) with additional optimization.
+Important features include: LLR on GPU/CPU, saving GPU memory by looping across channels, avoid LLR across SMS slices, etc
+
+2022-2023 Zijing Dong <zdong3@mgh.harvard.edu>
+2023 Fuyixue Wang <fwang18@mgh.harvard.edu>
+
+Installation:
+Please download the following BART version: bart-0.8.00
+Before compiling BART, copy and over-write the Makefile and source files in src/ to the BART folder
+Then, compile the BART toolbox ('make')
+Please check README_for_BART or the BART website:http://mrirecon.github.io/bart/ for guidance on BART installation 
+
+For prerequisites of BART installation, please check BART website and documents, example prerequisites include:
+GCC: The minimum GCC supported is 5.0. 
+CUDA (for GPU acceleration): CUDA > 10.0, please change the CUDA path in Makefile, including CUDA_BASE, CUDA_LIB, and CUDNN_LIB 
