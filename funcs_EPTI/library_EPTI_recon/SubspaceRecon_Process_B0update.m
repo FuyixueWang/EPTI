@@ -15,7 +15,7 @@ function [im_recon,a,P_dB] = SubspaceRecon_Process_B0update(kdata,sens_map,P_dB,
 % Please cite the following work on EPTI for this, including: 
 % 1. "Echo planar time-resolved imaging (EPTI)", Fuyixue Wang et al., MRM 2019 Jun;81(6):3599-3615;
 % 2. "Echo planar time-resolved imaging with subspace reconstruction and optimized spatiotemporal encoding", Zijing Dong et al., MRM 2020 Nov;84(5):2442-2455;
-% 3. "Improving fMRI acquisition using single-shot EPTI with distortion-free high-SNR high-CNR multi-echo imaging", Fuyixue Wang et al., ISMRM 2022 p3330;
+% 3. "Single-shot Echo Planar Time-resolved Imaging for multi-echo functional MRI and distortion-free diffusion imaging", Dong Z, Wald LL, Polimeni JR, Wang F. bioRxiv. 2024 Jan 26:2024.01.24.577002.
 % Other relevant citations that may warrant consideration (EPTI's application in fMRI, dMRI and qMRI), see EPTI website: https://martinos.org/~fw089/
 
 % Fuyixue Wang, Zijing Dong, 2023, MGH
