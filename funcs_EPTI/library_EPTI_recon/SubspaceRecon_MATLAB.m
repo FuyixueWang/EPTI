@@ -2,9 +2,9 @@ function [im_recon,a] = SubspaceRecon_MATLAB(kdata,sens_map,P_dB,Phase0_odd,Phas
 % EPTI subspace reconstruction using MATLAB 
 
 % Please cite the following work on EPTI for this, including: 
-% 1. "Echo planar time-resolved imaging (EPTI)", Fuyixue Wang et al., MRM 2019 Jun;81(6):3599-3615;
-% 2. "Echo planar time-resolved imaging with subspace reconstruction and optimized spatiotemporal encoding", Zijing Dong et al., MRM 2020 Nov;84(5):2442-2455;
-% 3. "Single-shot Echo Planar Time-resolved Imaging for multi-echo functional MRI and distortion-free diffusion imaging", Dong Z, Wald LL, Polimeni JR, Wang F. bioRxiv. 2024 Jan 26:2024.01.24.577002.
+% 1. Wang F, Dong Z, Reese TG, et al. Echo planar time-resolved imaging (EPTI). Magn Reson Med. 2019 Jun;81(6):3599-3615. doi: 10.1002/mrm.27673.
+% 2. Dong Z, Wang F, Reese TG, et al. Echo planar time-resolved imaging with subspace reconstruction and optimized spatiotemporal encoding. Magn Reson Med. 2020 Nov;84(5):2442-2455. doi: 10.1002/mrm.28295.
+% 3. Dong Z, Wald LL, Polimeni JR, Wang F. Single-shot echo planar time-resolved imaging for multi-echo functional MRI and distortion-free diffusion imaging. Magn Reson Med. 2024 Oct 20. doi: 10.1002/mrm.30327.
 % Other relevant citations that may warrant consideration (EPTI's application in fMRI, dMRI and qMRI), see EPTI website: https://martinos.org/~fw089/
 
 % Fuyixue Wang, Zijing Dong, 2022, MGH
